@@ -5,7 +5,11 @@ class ResponseLayout extends StatelessWidget {
   final Widget mobilLayout;
   final Widget desktopLayout;
 
-  ResponseLayout({required this.mobilLayout, required this.desktopLayout});
+  const ResponseLayout({
+    super.key,
+    required this.mobilLayout,
+    required this.desktopLayout,
+  });
 
   @override
   Widget build(BuildContext context) {
