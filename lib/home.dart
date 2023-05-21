@@ -8,9 +8,9 @@ class HomePages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ResponseLayout(
-      desktopLayout: const DesktopBody(),
-      mobilLayout: const MobileBody(),
+    return const ResponseLayout(
+      desktopLayout: DesktopBody(),
+      mobilLayout: MobileBody(),
     );
   }
 }
